@@ -21,8 +21,8 @@ function extractWordsFromUrl(url) {
                 wordReference: 'a@href'
             }])
         })(function (err, result) {
-            if (err) reject(err);
-            resolve(result);
+            if (err) return reject(err);
+            return resolve(result);
         });
     });
 }
