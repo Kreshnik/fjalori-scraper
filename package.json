@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "fjalor-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "app": "node app.js"
+  },
+  "dependencies": {
+    "fs-extra": "4.0.2",
+    "promise": "8.0.1",
+    "x-ray": "2.3.2"
+  }
+}

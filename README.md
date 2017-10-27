@@ -1,0 +1,1 @@
+A small scraper that extracts albanian words, and stores them in a JSON file.
